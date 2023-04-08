@@ -16,7 +16,8 @@ To run the application, you will need:
 To install the application and its dependencies, you can use `pip`:
 
 ```sh
-pip install flask
+pip install -r requirements.txt
+
 ```
 
 ## Usage
