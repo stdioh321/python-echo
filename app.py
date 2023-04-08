@@ -11,6 +11,7 @@ app = Flask(__name__)
 def catch_all(path):
     url = request.url
     headers = dict(request.headers)
+    query_params = dict(request.args)
     try:
         body = request.get_json()
     except:
@@ -20,6 +21,7 @@ def catch_all(path):
         'url': url,
         'path': path,
         'headers': headers,
+        'query_params': query_params,
         'body': body
     }
 
