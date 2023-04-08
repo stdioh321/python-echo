@@ -2,6 +2,15 @@
 
 This is a simple Flask application that echoes any received request. It accepts any HTTP method (e.g., GET, POST, PUT, DELETE, PATCH) and returns the request headers and body.
 
+
+## Requirements
+
+To run the application, you will need:
+
+* Python 3
+* `curl` (optional)
+
+
 ## Installation
 
 To install the application and its dependencies, you can use `pip`:
